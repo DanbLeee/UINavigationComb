@@ -1,29 +1,30 @@
 //
-//  ViewController.m
+//  NavigationController.m
 //  NavigationComb
 //
-//  Created by 李蛋伯 on 2016/11/6.
+//  Created by 李蛋伯 on 2016/11/7.
 //  Copyright © 2016年 李蛋伯. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "NavigationController.h"
 
-@interface ViewController ()
+@interface NavigationController ()
 
 @end
 
-@implementation ViewController
+@implementation NavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end

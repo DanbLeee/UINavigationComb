@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //将标签控制器TabBarController设置为应用的根控制器
+    self.window.rootViewController = [[TabBarController alloc]init];
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
