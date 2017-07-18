@@ -26,10 +26,10 @@
 		0E6652591DD037ED006B2FEE /* JiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6652581DD037ED006B2FEE /* JiViewController.m */; };
 		0E66525C1DD037FA006B2FEE /* LiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E66525B1DD037FA006B2FEE /* LiaoViewController.m */; };
 		0E8D8D781DDB41700076CB56 /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D8D771DDB41700076CB56 /* TabBarButton.m */; };
+		0E9070171F1E0EE40081FDD8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E9070161F1E0EE40081FDD8 /* Launch Screen.storyboard */; };
 		0EC744231DCEB24300A8E439 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC744221DCEB24300A8E439 /* main.m */; };
 		0EC744261DCEB24300A8E439 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC744251DCEB24300A8E439 /* AppDelegate.m */; };
 		0EC7442E1DCEB24300A8E439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7442D1DCEB24300A8E439 /* Assets.xcassets */; };
-		0EC744311DCEB24300A8E439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC7442F1DCEB24300A8E439 /* LaunchScreen.storyboard */; };
 		0EC7443C1DCEB24400A8E439 /* NavigationCombTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC7443B1DCEB24400A8E439 /* NavigationCombTests.m */; };
 		0EC744471DCEB24400A8E439 /* NavigationCombUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC744461DCEB24400A8E439 /* NavigationCombUITests.m */; };
 /* End PBXBuildFile section */
@@ -62,12 +62,12 @@
 		0E195ED21DDAA1CF0010CCE1 /* Liao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liao.png; sourceTree = "<group>"; };
 		0E195ED31DDAA1CF0010CCE1 /* Liao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@2x.png"; sourceTree = "<group>"; };
 		0E195ED41DDAA1CF0010CCE1 /* Liao@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Liao@3x.png"; sourceTree = "<group>"; };
-		0E195EDE1DDAA1E50010CCE1 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = provinces_cities.plist; path = ../provinces_cities.plist; sourceTree = "<group>"; };
+		0E195EDE1DDAA1E50010CCE1 /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
 		0E195EE01DDAA77D0010CCE1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
 		0E195EE11DDAA77D0010CCE1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
 		0E195EE31DDAA78B0010CCE1 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalViewController.h; path = ../ModalViewController.h; sourceTree = "<group>"; };
 		0E195EE41DDAA78B0010CCE1 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalViewController.m; path = ../ModalViewController.m; sourceTree = "<group>"; };
-		0E50FB371DDB00BB0035C417 /* CommonDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.pch; sourceTree = "<group>"; };
+		0E2AFA6C1F1E1E280040DCDA /* CommonDefine.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.pch; sourceTree = "<group>"; };
 		0E66524E1DD01E5E006B2FEE /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationController.h; path = ../NavigationController.h; sourceTree = "<group>"; };
 		0E66524F1DD01E5E006B2FEE /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationController.m; path = ../NavigationController.m; sourceTree = "<group>"; };
 		0E6652511DD01E96006B2FEE /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ../TabBarController.h; sourceTree = "<group>"; };
@@ -80,12 +80,12 @@
 		0E66525B1DD037FA006B2FEE /* LiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiaoViewController.m; sourceTree = "<group>"; };
 		0E8D8D761DDB41700076CB56 /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
 		0E8D8D771DDB41700076CB56 /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
+		0E9070161F1E0EE40081FDD8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0EC7441E1DCEB24300A8E439 /* NavigationComb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationComb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC744221DCEB24300A8E439 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0EC744241DCEB24300A8E439 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		0EC744251DCEB24300A8E439 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		0EC7442D1DCEB24300A8E439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0EC744301DCEB24300A8E439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC744321DCEB24300A8E439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC744371DCEB24400A8E439 /* NavigationCombTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationCombTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC7443B1DCEB24400A8E439 /* NavigationCombTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationCombTests.m; sourceTree = "<group>"; };
@@ -153,8 +153,6 @@
 				0E195EE11DDAA77D0010CCE1 /* DetailViewController.m */,
 				0E195EE31DDAA78B0010CCE1 /* ModalViewController.h */,
 				0E195EE41DDAA78B0010CCE1 /* ModalViewController.m */,
-				0E50FB371DDB00BB0035C417 /* CommonDefine.pch */,
-				0E195EDE1DDAA1E50010CCE1 /* provinces_cities.plist */,
 				0E195ECB1DDAA1CF0010CCE1 /* tabicons */,
 			);
 			path = Base;
@@ -190,9 +188,11 @@
 				0E6652581DD037ED006B2FEE /* JiViewController.m */,
 				0E66525A1DD037FA006B2FEE /* LiaoViewController.h */,
 				0E66525B1DD037FA006B2FEE /* LiaoViewController.m */,
+				0E2AFA6C1F1E1E280040DCDA /* CommonDefine.pch */,
+				0E195EDE1DDAA1E50010CCE1 /* provinces_cities.plist */,
 				0EC7442D1DCEB24300A8E439 /* Assets.xcassets */,
-				0EC7442F1DCEB24300A8E439 /* LaunchScreen.storyboard */,
 				0EC744321DCEB24300A8E439 /* Info.plist */,
+				0E9070161F1E0EE40081FDD8 /* Launch Screen.storyboard */,
 				0EC744211DCEB24300A8E439 /* Supporting Files */,
 			);
 			path = NavigationComb;
@@ -334,13 +334,13 @@
 				0E195EDF1DDAA1E50010CCE1 /* provinces_cities.plist in Resources */,
 				0E1011F01E006E4800B268FA /* nav_bg_all-64.png in Resources */,
 				0E195EDC1DDAA1CF0010CCE1 /* Liao@2x.png in Resources */,
+				0E9070171F1E0EE40081FDD8 /* Launch Screen.storyboard in Resources */,
 				0E195ED91DDAA1CF0010CCE1 /* Ji@2x.png in Resources */,
 				0E195ED81DDAA1CF0010CCE1 /* Ji.png in Resources */,
 				0E195EDA1DDAA1CF0010CCE1 /* Ji@3x.png in Resources */,
 				0E195ED51DDAA1CF0010CCE1 /* Hei.png in Resources */,
 				0E195ED71DDAA1CF0010CCE1 /* Hei@3x.png in Resources */,
 				0E195ED61DDAA1CF0010CCE1 /* Hei@2x.png in Resources */,
-				0EC744311DCEB24300A8E439 /* LaunchScreen.storyboard in Resources */,
 				0E195EDD1DDAA1CF0010CCE1 /* Liao@3x.png in Resources */,
 				0EC7442E1DCEB24300A8E439 /* Assets.xcassets in Resources */,
 			);
@@ -410,17 +410,6 @@
 			targetProxy = 0EC744431DCEB24400A8E439 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0EC7442F1DCEB24300A8E439 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0EC744301DCEB24300A8E439 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0EC744491DCEB24400A8E439 /* Debug */ = {
@@ -520,7 +509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/DanbLee/Desktop/Draft/NavigationComb/NavigationComb/Base/CommonDefine.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/CommonDefine.pch";
 				INFOPLIST_FILE = NavigationComb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanbLee.NavigationComb;
@@ -533,7 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = /Users/DanbLee/Desktop/Draft/NavigationComb/NavigationComb/Base/CommonDefine.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/CommonDefine.pch";
 				INFOPLIST_FILE = NavigationComb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DanbLee.NavigationComb;
